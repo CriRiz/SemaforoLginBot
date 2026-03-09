@@ -1,1 +1,1 @@
-worker: python semaforo_bot.py
+worker: python SemaforoLogin_bot.py
