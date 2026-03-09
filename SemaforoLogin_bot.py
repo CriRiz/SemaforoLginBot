@@ -31,7 +31,7 @@ def run_health_server():
 # ------------------------------------------------
 
 async def aggiorna_semaforo(context, chat_id):
-    testo = f"🚦 **STATO SEMAFORO** 🚦\n\nAttuale: {stato['colore']}"
+    testo = f"🚦 **STATO LOGIN AL DESKTOP REMOTO ** 🚦\n\nAttuale: {stato['colore']}"
     if stato['utente_id']:
         testo += f"\nOccupato da: ID {stato['utente_id']}"
     
